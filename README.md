@@ -71,19 +71,6 @@ Notes:
 - Model: per-view GCN encoders (personalized/shared/topology) with attention fusion to obtain Z, H, S; optional cosine alignment between summaries.
 - Training: joint optimization of contrastive MI losses and binary link prediction via an MLP on concatenated embeddings; k-fold cross-validation; metrics include AUC and AUPR.
 
-## Citation
-
-If you use this code or dataset, please cite:
-```bibtex
-@article{camda2024,
-  title={CAMDA: Contrastive Attention-based Multi-view Deep Association for Disease-miRNA Association Prediction},
-  author={[Your Name]},
-  journal={[Journal Name]},
-  year={2024},
-  note={Available at: https://github.com/[username]/camda}
-}
-```
-
 ## License & Contribution Guidelines
 
 - License: please include your chosen license in a `LICENSE` file.
